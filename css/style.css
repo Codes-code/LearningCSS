@@ -2,7 +2,7 @@
   margin:0;
   padding:0;
 }
-//this wont work as i am trying to run a scss file as a css file
+
 $color-primary:#f9ed69; 
 $color-secondary:#f08a5d;
 $color-tertiary:#b83b5e;
@@ -24,12 +24,16 @@ $width-button:150px;
   color:$color;  
 }
 
+@function divide($a,$b){
+  @return $a/$b;
+}
+
 nav{
-  margin:30px;
+  margin:divide(60,2)*1px;
   background-color:$color-primary;
   @include clearfix;
 }
-
+ 
 .navigation{
  list-style:none;
  float:left;

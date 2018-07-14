@@ -1,2 +1,2 @@
 # LearningCSS
-I Implement Sass(mixins, variables, nesting) in this Small Project.
+I Implement Sass(Mixins, Variables, Nesting, Functions) in this Small Project.
